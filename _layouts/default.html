@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{%- if page.title -%}{{ page.title }} • {%- endif -%}{{ site.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+	</head>
+	<body>
+		<main class="container">
+			<h2 class="topbar">
+				<a class="title" href="/">{{ site.title }}</a>
+				<!-- Right side links - ordered right to left due to float:right -->
+				<a class="page" href="/about">About</a>
+				<a class="page" href="/tags">Tags</a>
+			</h2>
+			<hr>
+			{{ content }}
+		</main>
+	</body>
+</html>

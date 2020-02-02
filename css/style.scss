@@ -1,0 +1,54 @@
+---
+---
+body {
+	background-color: #111111;
+	color: #ffffff;
+	font-size: 1rem;
+	margin-bottom: 5em;
+}
+
+a {
+	text-decoration: none;
+	color: #a6bdd8;
+}
+
+h2.topbar {
+	a {
+		color: #ffffff;
+	}
+	.page {
+		float: right;
+		margin-left: 1em;
+	}
+}
+
+hr, article {
+	border: 3px dashed #ffffff;
+	border-style: none none dashed;
+}
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: monospace;
+}
+
+p {
+	line-height: 1.4;
+}
+
+.buttons {
+	margin-top: 15px;
+
+	a {
+		background-color: #c0c0c0;
+		color: #000000;
+		display: inline-block;
+		padding: 10px 15px;
+	}
+	a:hover {
+		background-color: #aaaaaa;
+	}
+}
+

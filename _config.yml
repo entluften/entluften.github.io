@@ -1,0 +1,26 @@
+
+title: Entluften
+url: entluften.github.io
+
+plugins:
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+paginate: 5
+paginate_path: "/:num/"
+
+highlighter: rouge
+markdown: kramdown
+
+permalink: pretty
