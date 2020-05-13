@@ -1,8 +1,8 @@
 ---
 title: Brief Life Update
 tags:
-  - Coronavirus
-  - Life update
+  - coronavirus
+  - life update
 ---
 No, I haven't died from coronavirus. I'm alive and well despite still having to go to school here.
 
